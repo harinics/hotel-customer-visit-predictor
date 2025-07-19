@@ -5,7 +5,7 @@ from catboost import CatBoostRegressor
 import joblib
 
 # Load the model
-model = joblib.load(r"C:\Users\Harini CS\Downloads\catboost_model.pkl")
+model = joblib.load("catboost_model.pkl")
 
 st.title("🏨 Hotel Customer Visit Predictor")
 st.markdown("Predict when a customer will return to the hotel based on visit patterns.")
